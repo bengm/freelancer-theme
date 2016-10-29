@@ -16,13 +16,17 @@ p.small {
     font-size: 16px;
 }
 
+.img-responsive {
+    max-height: 30em;
+}
+
 a,
 a:hover,
 a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }};
+    color: #{{ site.color.highlight }};
 }
 
 h1,
